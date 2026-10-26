@@ -7,7 +7,7 @@
   const level = document.getElementById('enquiry-level');
   const goals = document.getElementById('enquiry-goals');
   const message = document.getElementById('enquiry-message');
-  const status = document.getElementById('copy-status');
+  const whatsapp = document.getElementById('whatsapp-enquiry');
   const options = {
     maths: ['Mathematics (Form 1–5)', 'Additional Mathematics (Form 4–5)', 'IGCSE Mathematics', 'A Level Mathematics', 'Competitive Mathematics — Kangaroo Math', 'Competitive Mathematics — IMONST', 'Competitive Mathematics — Other competitions', 'Not sure yet'],
     chess: ['Beginner', 'Intermediate', 'Advanced', 'Not sure yet']
@@ -18,7 +18,7 @@
     if (goals.value.trim()) lines.push('What I’d like help with: ' + goals.value.trim());
     lines.push('', 'Could you share your availability, lesson arrangements and fees? Thank you!');
     message.value = lines.join('\n');
-    status.textContent = '';
+    whatsapp.href = 'https://wa.me/60168603859?text=' + encodeURIComponent(message.value);
   }
   function changeService() {
     topic.replaceChildren(...options[service.value].map(label => new Option(label, label)));
@@ -30,15 +30,5 @@
   service.addEventListener('change', changeService);
   form.addEventListener('input', update);
   form.addEventListener('submit', event => event.preventDefault());
-  document.getElementById('copy-enquiry').addEventListener('click', async () => {
-    try {
-      await navigator.clipboard.writeText(message.value);
-      status.textContent = 'Copied. Open WhatsApp, paste your message and send it when you’re ready.';
-    } catch {
-      message.focus();
-      message.select();
-      status.textContent = 'Copy the selected message manually, then paste it into WhatsApp.';
-    }
-  });
   changeService();
 })();
