@@ -1,6 +1,6 @@
 # Malcolm Sim — Personal Website
 
-Personal website for Malcolm Sim Kah Kiek, a Network Computing undergraduate at Universiti Malaysia Sarawak (UNIMAS), mathematics tutor and chess coach.
+Personal website for Malcolm Sim, a Network Computing undergraduate at Universiti Malaysia Sarawak (UNIMAS), mathematics tutor and chess coach.
 
 **Live site:** https://malcolmskk.pages.dev/
 
