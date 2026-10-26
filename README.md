@@ -34,7 +34,7 @@ This repository does not configure automatic deployments. Updating it alone does
 
 ## Design
 
-- Linen & Plum palette
+- Silk & Champagne palette
 - Light, dark and device appearance settings
 - Responsive layouts
 - Custom flowing m + integral SVG monogram
