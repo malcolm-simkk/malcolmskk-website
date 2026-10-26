@@ -45,4 +45,4 @@ The appearance preference is saved in browser local storage. Public email addres
 
 ## Guided enquiry privacy
 
-Enquiry answers stay in page memory until the visitor chooses Continue to WhatsApp. The message is then passed to WhatsApp through a click-to-chat link, and the visitor reviews it and presses Send themselves. The website does not save enquiry answers or send messages automatically. Malcolm has authorised publishing his phone number on the contact page and in the WhatsApp link.
+Enquiry answers stay in page memory until the visitor chooses Continue to WhatsApp. The message is then passed to WhatsApp through a click-to-chat link, and the visitor reviews it and presses Send themselves. The website does not save enquiry answers or send messages automatically. The phone number is used in the WhatsApp enquiry link but is not displayed on the contact page.
