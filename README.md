@@ -13,6 +13,7 @@ Personal website for Malcolm Sim Kah Kiek, a Network Computing undergraduate at 
 - Coaching: chess coaching and playing/coaching experience
 - Research: wireless networks, traditional cryptography and post-quantum cryptography
 - Contact: public contact details and social profiles
+- Guided enquiry: prepares a tutoring or coaching message locally for visitors to copy and paste into WhatsApp
 
 ## Run locally
 
@@ -41,3 +42,7 @@ This repository does not configure automatic deployments. Updating it alone does
 - No analytics or external JavaScript dependencies
 
 The appearance preference is saved in browser local storage. Public email addresses and profile links are intentionally included on the contact page.
+
+## Guided enquiry privacy
+
+Enquiry answers stay in page memory and are not submitted or saved. Visitors explicitly copy their prepared message and open the WhatsApp share link to paste and send it themselves. The website does not send messages automatically.
