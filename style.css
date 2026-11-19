@@ -86,3 +86,62 @@ header{padding-top:24px;padding-bottom:24px}.site-nav a{border-radius:0}.site-na
   .project-grid { grid-template-columns: minmax(0, 1fr); gap: 16px; }
   .site-nav { flex-wrap: wrap; }
 }
+
+
+/* Home & About redesign */
+.home-highlights {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  list-style: none;
+  margin: 42px 0 0;
+  padding: 0;
+  border-block: 1px solid var(--line);
+}
+.home-highlights li { padding: 20px 18px; }
+.home-highlights li + li { border-inline-start: 1px solid var(--line); }
+.home-highlights strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--accent);
+  font: 400 clamp(27px, 4vw, 42px)/1.15 Georgia, "Times New Roman", serif;
+}
+.home-highlights span { color: var(--muted); font-size: 13px; line-height: 1.5; }
+.home-highlights + .research-note { border-top: 0; padding-top: 0; margin-top: 46px; }
+.section-heading-with-link { display: flex; flex-wrap: wrap; gap: 14px 24px; }
+.section-heading-with-link > .text-link { margin: 0; }
+.home-project-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.home-project-grid .project-card { display: flex; flex-direction: column; align-items: flex-start; }
+.home-project-summary { margin: 12px 0; font-size: 15px; }
+.home-project-grid .home-project-result {
+  margin: auto 0 0;
+  padding-top: 8px;
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 600;
+}
+.home-project-result span { margin-inline-end: 4px; color: var(--accent); }
+.closing-note .actions { margin: 0; }
+.education-university { color: var(--muted); font-size: 14px; line-height: 1.8; }
+.about-facts { margin: 18px 0 0; }
+.about-facts > div { border-top: 1px solid var(--line); padding-top: 12px; margin-top: 12px; }
+.about-facts dt { color: var(--muted); font-size: 12px; margin-bottom: 5px; }
+.about-facts dd { margin: 0; font-size: 14px; line-height: 1.65; }
+.about-facts a { text-underline-offset: 4px; }
+.about-experience { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.about-experience .experience-panel { display: flex; flex-direction: column; align-items: flex-start; }
+.about-experience .text-link { margin: auto 0 0; padding-top: 8px; }
+.about-paths { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (min-width: 861px) {
+  header .site-nav { flex-wrap: nowrap; }
+}
+@media (max-width: 900px) {
+  .home-project-grid, .about-experience { grid-template-columns: minmax(0, 1fr); }
+  .about-paths { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+  .home-highlights { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .home-highlights li:nth-child(3) { border-inline-start: 0; }
+  .home-highlights li:nth-child(n+3) { border-top: 1px solid var(--line); }
+  .about-paths { grid-template-columns: minmax(0, 1fr); }
+  .personal-opening .desk-notes dl > div:last-child { grid-column: auto; }
+}
