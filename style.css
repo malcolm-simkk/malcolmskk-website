@@ -145,3 +145,7 @@ header{padding-top:24px;padding-bottom:24px}.site-nav a{border-radius:0}.site-na
   .about-paths { grid-template-columns: minmax(0, 1fr); }
   .personal-opening .desk-notes dl > div:last-child { grid-column: auto; }
 }
+
+@media (max-width: 440px) {
+  header .site-nav a { padding-inline: 4px; }
+}
