@@ -12,7 +12,8 @@ Personal website for Malcolm Sim, a Network Computing undergraduate at Universit
 - Tutoring: school, pre-university and Competitive Mathematics (including Kangaroo Math and IMONST)
 - Coaching: chess coaching and playing/coaching experience
 - Research: wireless networks, traditional cryptography and post-quantum cryptography
-- Projects: projects and hackathons in one list, newest first, with event photos
+- Projects: clean, clickable cards for each project and hackathon, newest first
+- Project pages (sarawak-earth-detectives.html, startupbuddy.html, guardagent.html): photos, full description, tools and links for each project
 - Contact: public contact details and social profiles
 - Guided enquiry: prepares a tutoring or coaching message locally and opens Malcolm’s WhatsApp chat with the message prefilled
 
