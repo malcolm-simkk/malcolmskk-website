@@ -2,7 +2,7 @@
 
 Personal website for Malcolm Sim, a Network Computing undergraduate at Universiti Malaysia Sarawak (UNIMAS), mathematics tutor and chess coach.
 
-**Live site:** https://malcolmskk.pages.dev/
+**Live site:** https://malcolmskk.com/ (also available at https://malcolmskk.pages.dev/)
 
 ## Pages
 
