@@ -19,7 +19,7 @@ Personal website for Malcolm Sim, a Network Computing undergraduate at Universit
 
 ## Images
 
-Web-sized photos live in `images/` (metadata removed, two sizes each for `srcset`). Original photos are kept outside this repository.
+Web-sized photos live in `images/` (metadata removed, two sizes each for `srcset`). Original photos are kept outside this repository. `images/og-preview.jpg` is the 1200×627 link preview image used by LinkedIn and other sites (Open Graph tags on the homepage).
 
 ## Run locally
 
